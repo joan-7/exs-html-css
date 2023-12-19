@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(50,50,50);
+  text-align: center;
+}
+
+.container{
+  margin-top: 10%;
+}
+
+
+.icon-box > svg{
+  width: 200px;
+  height: 200px;
+  color: rgb(80,80,80);
+}
+
+button{
+  transition: 3s;
+  width: 150px;
+  height: 100px;
+  border-radius: 250px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  color: #ff0050;
+  border: 10px solid #e7e7e7;
+}
+
+button:hover{
+  transition: .3s;
+  transform: rotate(360deg);
+  width: 250px;
+  height: 100px;
+  color: white;
+  background-color: #ff0050;
+  border: 10px solid #d80145;
+  box-shadow: 0px 0px 20px #ff0050;
+  cursor: pointer;
+}
+
+button:active{
+  background-color: #d40245;
+  border: 10px solid #b3013a;
+}

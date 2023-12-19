@@ -1,0 +1,67 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Estilos para as seções */
+  section {
+    padding: 40px 20px;
+  }
+  
+  /* Estilos para o formulário de contato */
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  form label,
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .redes-sociais a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
